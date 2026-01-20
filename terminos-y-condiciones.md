@@ -3,7 +3,9 @@ title: Términos y Condiciones
 permalink: /terminos-y-condiciones/
 ---
 
-**Última actualización:** 10/01/2026
+# Términos y condiciones – Testealo
+
+**Última actualización:** 20/01/2026
 
 ---
 

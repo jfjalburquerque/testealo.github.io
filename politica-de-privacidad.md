@@ -5,7 +5,7 @@ permalink: /politica-de-privacidad/
 
 # Política de Privacidad – Testealo
 
-**Última actualización:** 10/01/2026
+**Última actualización:** 20/01/2026
 
 ---
 
