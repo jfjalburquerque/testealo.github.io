@@ -4,65 +4,115 @@ permalink: /terminos-y-condiciones/
 layout: page
 ---
 
-[Inicio]({{ "/" | relative_url }}) · [Política de Privacidad]({{ "/politica-de-privacidad/" | relative_url }})
+# Términos y condiciones – Testealo
 
-Última actualización: 10/01/2026
+**Última actualización:** 20/01/2026
+
+---
 
 ## 1. Titular y contacto
 
-- Titular: Jose Francisco Jimenez Alburquerque.
-- App: Testealo.
-- Contacto: `testealojusticia@gmail.com` · `+34 624 844 363`.
-- Domicilio: España (se facilitará a solicitud por email cuando sea necesario).
+* **Titular:** Jose Francisco Jimenez Alburquerque
+* **Aplicación:** Testealo
+* **Correo de contacto:** [testealojusticia@gmail.com](mailto:testealojusticia@gmail.com)
+* **País:** España
+
+---
 
 ## 2. Objeto
 
-Testealo ofrece funcionalidades para practicar tests de oposiciones, ver estadísticas y (en ciertos planes) usar funciones de IA. El uso de la app implica la aceptación de estos términos.
+Testealo es una aplicación destinada a la **práctica de tests de oposiciones**, visualización de estadísticas de estudio y, en determinados planes, el uso de **funciones de apoyo basadas en inteligencia artificial**.
+
+El uso de la aplicación implica la aceptación de los presentes Términos y Condiciones.
+
+---
 
 ## 3. Requisitos de uso
 
-- Debes usar la app de forma lícita y respetuosa.
-- No debes intentar vulnerar la seguridad, interferir con el servicio ni abusar de límites (por ejemplo, automatizaciones masivas).
-- Si creas una cuenta mediante un proveedor de identidad (p. ej., Auth0), eres responsable de mantener la seguridad de tu dispositivo y credenciales.
+El usuario se compromete a:
 
-## 4. Funciones de IA (cuando existan)
+* Utilizar la aplicación de forma lícita y conforme a la ley.
+* No realizar usos abusivos, automatizados o que puedan afectar al funcionamiento del servicio.
+* No intentar acceder sin autorización, interferir o vulnerar las medidas de seguridad.
 
-- Las respuestas pueden contener errores o contenido incompleto. Debes verificar la información, especialmente si la usarás para decisiones importantes.
-- No introduzcas datos sensibles o confidenciales en el chat o campos de texto libre.
-- Podemos aplicar límites de uso por plan para garantizar la disponibilidad del servicio.
+Cuando el acceso se realice mediante un proveedor de identidad, el usuario es responsable de la custodia de su dispositivo y credenciales.
+
+---
+
+## 4. Funciones basadas en inteligencia artificial
+
+Cuando la aplicación ofrezca funciones de IA:
+
+* Las respuestas se generan de forma automática y **pueden contener errores o información incompleta**.
+* El usuario es responsable de verificar la información antes de utilizarla.
+* No deben introducirse datos personales sensibles o información confidencial.
+* El acceso a estas funciones puede estar **limitado según el plan de suscripción**.
+
+Las funciones de IA se ofrecen como **herramienta de apoyo al estudio**, no como garantía de resultados.
+
+---
 
 ## 5. Suscripciones, pruebas y pagos
 
-- Algunas funciones pueden requerir suscripción.
-- Los pagos, renovaciones y cancelaciones se gestionan mediante el proveedor correspondiente (App Store, Google Play o Stripe, según el caso).
-- Si existe un periodo de prueba, puede estar limitado a una vez por usuario y a una duración determinada.
-- Los precios e impuestos aplicables, así como las condiciones de reembolso, dependen del canal de compra y de la normativa aplicable.
+* Algunas funcionalidades requieren una suscripción de pago.
+* Los pagos, renovaciones, cancelaciones y reembolsos se gestionan exclusivamente a través del proveedor correspondiente:
 
-## 6. Contenido y propiedad intelectual
+  * Google Play
+  * Apple App Store
+  * Stripe (si está disponible)
+* Las condiciones económicas, impuestos aplicables y políticas de reembolso dependen del canal de compra y de la normativa vigente.
+* Los periodos de prueba, cuando existan, pueden estar limitados a una duración concreta y a un único uso por usuario.
 
-- La app, su diseño y sus contenidos (salvo lo indicado) pertenecen al titular o se usan con licencia.
-- No se permite copiar, distribuir, descompilar o explotar comercialmente la app sin autorización, salvo lo permitido por ley.
+---
 
-## 6.b Enlaces a terceros
+## 6. Contenidos y propiedad intelectual
 
-La app puede mostrar enlaces a fuentes externas (por ejemplo, normativa o documentos de referencia). No somos responsables del contenido o disponibilidad de sitios de terceros.
+La aplicación, su diseño, estructura, textos, bases de datos y funcionalidades son titularidad del responsable o se utilizan bajo licencia.
 
-## 7. Disponibilidad y cambios
+No está permitido copiar, reproducir, distribuir, descompilar ni explotar comercialmente la aplicación sin autorización expresa, salvo en los casos permitidos por la ley.
 
-Podemos modificar, suspender o interrumpir el servicio (total o parcialmente) por mantenimiento, seguridad o mejoras. Intentaremos minimizar el impacto, pero no garantizamos disponibilidad ininterrumpida.
+---
 
-## 8. Limitación de responsabilidad
+## 7. Enlaces a terceros
 
-En la medida permitida por la ley, el titular no será responsable por daños indirectos, pérdida de datos, o perjuicios derivados del uso o imposibilidad de uso de la app. En todo caso, nada en estos términos limita derechos irrenunciables del consumidor cuando sean aplicables.
+La aplicación puede incluir enlaces a sitios web o recursos externos.
+El titular no se responsabiliza del contenido, disponibilidad o funcionamiento de dichos sitios de terceros.
 
-## 9. Baja y eliminación
+---
 
-Puedes solicitar la baja o eliminación de la cuenta escribiendo a `testealojusticia@gmail.com`. Ciertos datos podrán conservarse durante los plazos necesarios para obligaciones legales o prevención de fraude.
+## 8. Disponibilidad del servicio
 
-## 10. Legislación aplicable y jurisdicción
+El servicio se presta **tal cual** y puede verse interrumpido temporalmente por motivos de mantenimiento, seguridad o mejoras técnicas.
 
-Estos términos se rigen por la legislación española. Si eres consumidor, se aplicarán además los derechos que te reconozca la normativa de consumo. Para cualquier controversia, las partes se someterán a los juzgados y tribunales que correspondan según la normativa aplicable.
+No se garantiza una disponibilidad ininterrumpida del servicio, aunque se procurará minimizar las interrupciones.
 
-## 11. Aviso importante (no asesoramiento)
+---
 
-Testealo es una herramienta de estudio. No constituye asesoramiento legal, profesional ni garantía de resultados en exámenes u oposiciones.
+## 9. Limitación de responsabilidad
+
+En la medida permitida por la legislación aplicable:
+
+* El titular no será responsable de daños indirectos, pérdida de datos o perjuicios derivados del uso o imposibilidad de uso de la aplicación.
+* Nada de lo dispuesto en estos términos limita los derechos irrenunciables del consumidor cuando sean de aplicación.
+
+---
+
+## 10. Baja y eliminación de cuenta
+
+El usuario puede solicitar la baja o eliminación de su cuenta escribiendo a **[testealojusticia@gmail.com](mailto:testealojusticia@gmail.com)**.
+
+Determinados datos podrán conservarse durante los plazos legalmente exigidos o cuando sea necesario para la prevención de fraude.
+
+---
+
+## 11. Legislación aplicable
+
+Estos términos se rigen por la legislación española.
+Si el usuario tiene la condición de consumidor, se aplicarán los derechos que le reconozca la normativa de protección de consumidores y usuarios.
+
+---
+
+## 12. Aviso importante
+
+Testealo es una **herramienta de apoyo al estudio**.
+No constituye asesoramiento legal, profesional ni garantiza resultados en exámenes u oposiciones.
