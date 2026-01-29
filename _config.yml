@@ -8,6 +8,7 @@ phone: "+34 624 844 363"
 
 # Branding
 logo: /resources/imgs/appicon.png
+logo_extended: /resources/imgs/logo_extended.png
 
 # Opcional: enlaces de descarga (para mostrar badges en la home)
 app_store_url: ""

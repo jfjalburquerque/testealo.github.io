@@ -18,10 +18,9 @@
                 <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
             </button>
             <a class="navbar-brand page-scroll" href="{{ brand_href }}">
-              {% if site.logo %}
-                <img class="navbar-logo" src="{{ site.logo | relative_url }}" alt="{{ site.title }}">
+              {% if site.logo_extended %}
+                <img class="navbar-logo" src="{{ site.logo_extended | relative_url }}" alt="{{ site.title }}">
               {% endif %}
-              {{ site.title }}
             </a>
         </div>
 
