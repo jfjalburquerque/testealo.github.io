@@ -4,12 +4,6 @@ permalink: /politica-de-privacidad/
 layout: page
 ---
 
-# Política de Privacidad – Testealo
-
-**Última actualización:** 20/01/2026
-
----
-
 ## 1. Responsable del tratamiento
 
 **Aplicación:** Testealo

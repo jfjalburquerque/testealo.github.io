@@ -4,12 +4,6 @@ permalink: /terminos-y-condiciones/
 layout: page
 ---
 
-# Términos y condiciones – Testealo
-
-**Última actualización:** 20/01/2026
-
----
-
 ## 1. Titular y contacto
 
 * **Titular:** Jose Francisco Jimenez Alburquerque
