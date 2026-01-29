@@ -1,0 +1,20 @@
+<section id="download" class="download bg-primary text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h2 class="section-heading">Descarga Testealo</h2>
+                <p>Disponible para móviles. Enlaces de descarga cuando estén publicados.</p>
+                {% if site.google_play_url or site.app_store_url %}
+                  <div class="badges">
+                    {% if site.google_play_url %}
+                      <a class="badge-link" href="{{ site.google_play_url }}"><img src="{{ '/img/google-play-badge.svg' | relative_url }}" alt="Google Play"></a>
+                    {% endif %}
+                    {% if site.app_store_url %}
+                      <a class="badge-link" href="{{ site.app_store_url }}"><img src="{{ '/img/app-store-badge.svg' | relative_url }}" alt="App Store"></a>
+                    {% endif %}
+                  </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</section>

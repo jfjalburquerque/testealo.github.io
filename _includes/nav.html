@@ -1,0 +1,51 @@
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+    {% assign home_url = '/' | relative_url %}
+    {% if page.url == '/' %}
+      {% assign brand_href = '#page-top' %}
+      {% assign download_href = '#download' %}
+      {% assign features_href = '#features' %}
+      {% assign contact_href = '#contact' %}
+    {% else %}
+      {% assign brand_href = home_url | append: '#page-top' %}
+      {% assign download_href = home_url | append: '#download' %}
+      {% assign features_href = home_url | append: '#features' %}
+      {% assign contact_href = home_url | append: '#contact' %}
+    {% endif %}
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+            </button>
+            <a class="navbar-brand page-scroll" href="{{ brand_href }}">
+              {% if site.logo %}
+                <img class="navbar-logo" src="{{ site.logo | relative_url }}" alt="{{ site.title }}">
+              {% endif %}
+              {{ site.title }}
+            </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a class="page-scroll" href="{{ download_href }}">Descargar</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="{{ features_href }}">Funciones</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="{{ contact_href }}">Contacto</a>
+                </li>
+                <li>
+                    <a href="{{ '/politica-de-privacidad/' | relative_url }}">Privacidad</a>
+                </li>
+                <li>
+                    <a href="{{ '/terminos-y-condiciones/' | relative_url }}">Términos</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>

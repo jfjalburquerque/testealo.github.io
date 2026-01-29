@@ -1,6 +1,7 @@
 ---
 title: Política de Privacidad
 permalink: /politica-de-privacidad/
+layout: page
 ---
 
 [Inicio]({{ "/" | relative_url }}) · [Términos y Condiciones]({{ "/terminos-y-condiciones/" | relative_url }})

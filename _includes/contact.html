@@ -1,0 +1,18 @@
+
+<section id="contact" class="contact bg-primary">
+    <div class="container">
+        <h2>Contacto</h2>
+        <p>Escríbenos y cuéntanos tu caso.</p>
+        <p>
+          {% if site.email %}
+            <a style="color: inherit; text-decoration: underline;" href="mailto:{{ site.email }}">{{ site.email }}</a>
+          {% endif %}
+          {% if site.phone %}
+            &nbsp;·&nbsp;
+            <a style="color: inherit; text-decoration: underline;" href="tel:{{ site.phone | replace: ' ', '' }}">{{ site.phone }}</a>
+          {% endif %}
+        </p>
+    </div>
+</section>
+
+{% include footer.html %}

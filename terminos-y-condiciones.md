@@ -1,6 +1,7 @@
 ---
 title: Términos y Condiciones
 permalink: /terminos-y-condiciones/
+layout: page
 ---
 
 [Inicio]({{ "/" | relative_url }}) · [Política de Privacidad]({{ "/politica-de-privacidad/" | relative_url }})

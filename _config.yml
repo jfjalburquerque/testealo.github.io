@@ -1,4 +1,32 @@
 title: Testealo
 description: App para practicar tests de oposiciones
 lang: es-ES
+
+# Contacto
+email: testealojusticia@gmail.com
+phone: "+34 624 844 363"
+
+# Branding
 logo: /resources/imgs/appicon.png
+
+# Opcional: enlaces de descarga (para mostrar badges en la home)
+app_store_url: ""
+google_play_url: ""
+
+# GitHub Pages / Jekyll
+baseurl: "" # si es project page, pon aquí "/repo"
+url: "" # opcional (p.ej. https://tu-dominio.com)
+permalink: pretty
+markdown: kramdown
+
+sass:
+  style: compressed
+
+exclude:
+  - less
+  - node_modules
+  - Gemfile
+  - Gemfile.lock
+  - gulpfile.js
+  - package.json
+  - README.md
