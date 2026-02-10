@@ -105,7 +105,7 @@ En estos casos, las transferencias se realizan conforme a los mecanismos legales
 * Los datos necesarios para obligaciones legales se conservarán durante los plazos exigidos por la normativa.
 * Los registros técnicos se conservan el tiempo mínimo necesario.
 
-El usuario puede solicitar la eliminación de su cuenta en cualquier momento.
+El usuario puede solicitar la eliminación de su cuenta en cualquier momento. Para ver los pasos, consulta: **[Eliminar cuenta]({{ '/eliminar-cuenta/' | relative_url }})**.
 
 ---
 
@@ -129,4 +129,3 @@ La aplicación **no está dirigida a menores de 14 años** y no recopila de form
 
 Esta política puede actualizarse para reflejar cambios legales o técnicos.
 La versión vigente estará siempre disponible en esta misma URL.
-
