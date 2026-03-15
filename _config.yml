@@ -11,8 +11,9 @@ logo: /resources/imgs/appicon.png
 logo_extended: /resources/imgs/logo_extended.png
 
 # Opcional: enlaces de descarga (para mostrar badges en la home)
-#app_store_url: ""
+app_store_url: "https://share.google/8vSQLSJ3PwBHU7QviBHU7Qvi"
 google_play_url: "https://play.google.com/store/apps/details?id=com.testealo"
+webapp_url: "https://app.testealo.net"
 
 # GitHub Pages / Jekyll
 baseurl: "" # si es project page, pon aquí "/repo"
