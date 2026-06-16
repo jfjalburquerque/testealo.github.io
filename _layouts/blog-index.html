@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ page.title }} | Testealo</title>
+<meta name="description" content="{{ page.description }}">
+<link rel="canonical" href="https://testealo.net{{ page.url }}">
+<meta name="robots" content="index, follow">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{ page.title }}">
+<meta property="og:description" content="{{ page.description }}">
+<meta property="og:url" content="https://testealo.net{{ page.url }}">
+<meta property="og:site_name" content="Testealo">
+<meta property="og:image" content="https://testealo.net/resources/imgs/logo_extended.png">
+<meta property="og:locale" content="es_ES">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="shortcut icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet">
+
+{% include blog-style.html %}
+</head>
+<body>
+{% include blog-nav.html %}
+
+<section class="blog-hero">
+  <div class="section-label">Blog</div>
+  <h1>Guías de <em>oposiciones</em><br>que sí sirven</h1>
+  <p>{{ page.description }}</p>
+</section>
+
+<div class="posts-grid">
+  {% assign posts = site.posts | sort: 'date' | reverse %}
+  {% for post in posts %}
+  <a href="{{ post.url | relative_url }}" class="post-card reveal">
+    {% if post.badge %}<span class="badge">{{ post.badge }}</span>{% endif %}
+    <h2>{{ post.title }}</h2>
+    <p>{{ post.description }}</p>
+    <div class="meta">
+      <span>📅 {{ post.date | date: "%-d %b %Y" }}</span>
+      <span>⏱️ {{ post.content | number_of_words | divided_by: 200 | plus: 1 }} min</span>
+    </div>
+    <span class="read-more">Leer guía →</span>
+  </a>
+  {% endfor %}
+</div>
+
+{% include blog-footer.html %}
+</body>
+</html>

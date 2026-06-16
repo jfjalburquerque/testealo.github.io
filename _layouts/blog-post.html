@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ page.title }} | Testealo</title>
+<meta name="description" content="{{ page.description }}">
+{% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %}
+<link rel="canonical" href="https://testealo.net{{ page.url }}">
+<meta name="robots" content="index, follow">
+
+<!-- Open Graph -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="{{ page.title }}">
+<meta property="og:description" content="{{ page.description }}">
+<meta property="og:url" content="https://testealo.net{{ page.url }}">
+<meta property="og:site_name" content="Testealo">
+<meta property="og:image" content="https://testealo.net{{ page.image | default: '/resources/imgs/logo_extended.png' }}">
+<meta property="og:locale" content="es_ES">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ page.title }}">
+<meta name="twitter:description" content="{{ page.description }}">
+<meta name="twitter:image" content="https://testealo.net{{ page.image | default: '/resources/imgs/logo_extended.png' }}">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="shortcut icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": {{ page.title | jsonify }},
+  "description": {{ page.description | jsonify }},
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "dateModified": "{{ page.date | date_to_xmlschema }}",
+  "author": { "@type": "Organization", "name": "Testealo" },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Testealo",
+    "logo": { "@type": "ImageObject", "url": "https://testealo.net/resources/imgs/logo_extended.png" }
+  },
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://testealo.net{{ page.url }}" }
+}
+</script>
+
+{% include blog-style.html %}
+</head>
+<body>
+{% include blog-nav.html %}
+
+<header class="post-head">
+  {% if page.badge %}<div class="badge">{{ page.badge }}</div>{% endif %}
+  <h1>{{ page.title }}</h1>
+  {% if page.subtitle %}<p class="subtitle">{{ page.subtitle }}</p>{% endif %}
+  <div class="post-meta">
+    <span>📅 {{ page.date | date: "%-d de %B de %Y" }}</span>
+    <span>⏱️ {{ content | number_of_words | divided_by: 200 | plus: 1 }} min de lectura</span>
+  </div>
+</header>
+<hr class="post-divider">
+
+<article class="post-body reveal">
+  {{ content }}
+</article>
+
+<section class="post-cta">
+  <div class="box reveal">
+    <h3>{{ page.cta_title | default: "Practica para tu oposición con <em>Testealo</em>" }}</h3>
+    <p>{{ page.cta_text | default: "Tests oficiales, estadísticas de progreso, ranking de competición y un tutor IA que te explica cada pregunta al instante. Empieza gratis, sin tarjeta." }}</p>
+    <a href="https://app.testealo.net" class="btn-primary">Empezar gratis ↗</a>
+  </div>
+</section>
+
+<div class="post-foot-nav reveal">
+  <a href="{{ '/blog/' | relative_url }}">← Volver al blog</a>
+</div>
+
+<div style="height:80px"></div>
+
+{% include blog-footer.html %}
+</body>
+</html>

@@ -1,0 +1,16 @@
+<footer>
+  <div class="foot-logo"><img src="{{ '/resources/imgs/logo_extended.png' | relative_url }}" alt="Testealo"></div>
+  <div class="footer-links">
+    <a href="{{ '/blog/' | relative_url }}">Blog</a>
+    <a href="https://testealo.net/politica-de-privacidad/">Privacidad</a>
+    <a href="https://testealo.net/terminos-y-condiciones/">Términos</a>
+    <a href="https://testealo.net/eliminar-cuenta/">Eliminar cuenta</a>
+  </div>
+  <div class="footer-copy">© 2026 Testealo</div>
+</footer>
+
+<script>
+const obs=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('visible')})},{threshold:0.1,rootMargin:'0px 0px -60px 0px'});
+document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
+addEventListener('scroll',()=>{document.getElementById('nav').style.background=scrollY>60?'rgba(30,31,35,0.97)':'rgba(30,31,35,0.85)'});
+</script>
