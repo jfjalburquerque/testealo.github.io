@@ -17,7 +17,7 @@ webapp_url: "https://app.testealo.net"
 
 # GitHub Pages / Jekyll
 baseurl: "" # si es project page, pon aquí "/repo"
-url: "" # opcional (p.ej. https://tu-dominio.com)
+url: "https://testealo.net" # opcional (p.ej. https://tu-dominio.com)
 permalink: pretty
 markdown: kramdown
 
