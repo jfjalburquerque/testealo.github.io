@@ -6,6 +6,7 @@ subtitle: "Guía completa del cuerpo de Gestión Procesal (subgrupo A2): qué ha
 description: "Guía 2026 de la oposición a Gestión Procesal y Administrativa: funciones, requisitos, temario completo, formato del examen y plan de estudio para aprobar."
 keywords: "oposición gestión procesal, temario gestión procesal y administrativa, examen gestión procesal, oposiciones justicia A2, cómo aprobar gestión procesal"
 badge: "Justicia · Subgrupo A2"
+image: /resources/imgs/og/gestion-procesal.png
 date: 2026-06-16 10:00:00 +0200
 cta_title: "Practica el temario de Gestión Procesal con <em>Testealo</em>"
 cta_text: "Miles de preguntas tipo test del temario de Justicia, supuestos prácticos, estadísticas de tus fallos y un tutor IA que te explica cada respuesta. Empieza gratis, sin tarjeta."

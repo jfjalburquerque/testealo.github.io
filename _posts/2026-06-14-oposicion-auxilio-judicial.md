@@ -6,6 +6,7 @@ subtitle: "Guía completa del cuerpo de Auxilio Judicial (subgrupo C2): funcione
 description: "Guía 2026 de la oposición a Auxilio Judicial: funciones, requisitos, temario completo, formato del examen y plan de estudio para aprobar."
 keywords: "oposición auxilio judicial, temario auxilio judicial, examen auxilio judicial, oposiciones justicia C2, cómo aprobar auxilio judicial"
 badge: "Justicia · Subgrupo C2"
+image: /resources/imgs/og/auxilio-judicial.png
 date: 2026-06-14 10:00:00 +0200
 cta_title: "Practica el temario de Auxilio Judicial con <em>Testealo</em>"
 cta_text: "Miles de preguntas tipo test del temario de Justicia, supuestos prácticos, estadísticas de tus fallos y un tutor IA que te explica cada respuesta. Empieza gratis, sin tarjeta."
