@@ -49,7 +49,7 @@ Auxiliar es la oposición de la AGE con más demanda y, por tanto, la que mejor 
 | 2021-2022 | 30,00 | 29,33 | 59,33 |
 | 2023-2024 | 30,00 | 26,33 | 56,33 |
 
-> En las convocatorias más antiguas (2015-2017) las cifras corresponden a un formato de examen distinto, por lo que **no son del todo comparables** con las recientes. Aun así, la tendencia es clara: a medida que crecen las plazas, la nota de corte se relaja hacia los mínimos.
+> La **ofimática ha estado siempre presente** en Auxiliar. En las convocatorias **anteriores a la OEP 2019**, el test teórico y la ofimática eran las **partes 1 y 2 del primer ejercicio**; desde la **convocatoria 2021 (OEP 2019)** se unificó en un **ejercicio único de dos partes, todo tipo test**. Por eso las dos cifras de cada año (test teórico + ofimática) **sí son comparables** entre convocatorias. La tendencia es clara: a medida que crecen las plazas, la nota de corte se relaja hacia los mínimos.
 
 **Plazas, solicitudes y competencia (turno libre):**
 
