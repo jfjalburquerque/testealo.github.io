@@ -13,7 +13,7 @@
       : "https://api.testealo.net");
 
   var STORE = {
-    ios: "https://apps.apple.com/us/app/testealo/id6759055279",
+    ios: "https://apps.apple.com/es/app/testealo/id6759055279",
     android: "https://play.google.com/store/apps/details?id=com.testealo",
     web: "https://app.testealo.net",
   };
