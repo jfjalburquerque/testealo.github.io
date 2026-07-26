@@ -15,6 +15,9 @@ app_store_url: "https://apps.apple.com/us/app/testealo/id6759055279"
 google_play_url: "https://play.google.com/store/apps/details?id=com.testealo"
 webapp_url: "https://app.testealo.net"
 
+# Analítica
+ga4_measurement_id: "G-CC7EWN8CFG" # embudo de captación
+
 # GitHub Pages / Jekyll
 baseurl: "" # si es project page, pon aquí "/repo"
 url: "https://testealo.net" # opcional (p.ej. https://tu-dominio.com)
