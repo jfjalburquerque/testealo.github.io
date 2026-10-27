@@ -2,14 +2,16 @@
 layout: blog-post
 permalink: /blog/notas-de-corte-justicia-historico/
 title: "Notas de corte de las oposiciones de Justicia: histórico real (Gestión, Tramitación y Auxilio)"
+seo_title: "Notas de corte Justicia: Auxilio, Tramitación y Gestión"
 subtitle: "Qué es realmente la nota de corte, cómo se calcula y la evolución por territorios y convocatorias en Gestión Procesal, Tramitación Procesal y Auxilio Judicial."
-description: "Histórico real de notas de corte de las oposiciones de Justicia (Gestión Procesal, Tramitación Procesal y Auxilio Judicial), por territorios y convocatorias, con fuentes verificables."
+description: "Histórico real de notas de corte de Justicia (Gestión, Tramitación y Auxilio Judicial) por territorios y convocatorias, con fuentes verificables."
 keywords: "notas de corte justicia, nota de corte gestión procesal, nota de corte tramitación procesal, nota de corte auxilio judicial, histórico notas de corte oposiciones justicia"
 badge: "Justicia · Notas de corte"
 image: /resources/imgs/og/notas-de-corte.png
 date: 2026-06-16 12:00:00 +0200
 cta_title: "Llega a la nota de corte con <em>Testealo</em>"
 cta_text: "Practica con miles de preguntas tipo test del temario de Justicia, mide tu nota en simulacros y deja que la IA te explique cada fallo. Empieza gratis, sin tarjeta."
+related_tests: [auxilio-judicial, tramitacion-procesal, constitucion-espanola]
 ---
 
 Una de las preguntas que más se repite entre quienes preparan Justicia es: **"¿Con qué nota se aprueba?"**. La respuesta honesta es que **no existe una única nota de corte**: cambia según el cuerpo, el **ámbito territorial** que elijas, el **turno** (general, discapacidad o promoción interna) y, sobre todo, según **cuántas plazas haya y cuánta gente apruebe** en cada convocatoria. En esta guía recopilamos el histórico **real** de las notas de corte de Gestión Procesal, Tramitación Procesal y Auxilio Judicial, con sus fuentes, para que entiendas de dónde salen esos números y cómo interpretarlos.

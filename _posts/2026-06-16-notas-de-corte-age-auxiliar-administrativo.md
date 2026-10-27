@@ -2,14 +2,16 @@
 layout: blog-post
 permalink: /blog/notas-de-corte-age-auxiliar-administrativo/
 title: "Notas de corte de la AGE: histórico real de Auxiliar y Administrativo del Estado"
+seo_title: "Notas de corte Auxiliar Administrativo del Estado (AGE)"
 subtitle: "Qué es de verdad la nota de corte, cómo se calcula y su evolución por convocatorias en Auxiliar Administrativo del Estado (C2) y Administrativo del Estado (C1)."
-description: "Histórico real de notas de corte de las oposiciones de la Administración General del Estado: Auxiliar Administrativo del Estado (C2) y Administrativo del Estado (C1), con plazas, ratios y fuentes verificables."
+description: "Histórico real de notas de corte de Auxiliar Administrativo (C2) y Administrativo del Estado (C1): plazas, ratios y fuentes verificables."
 keywords: "nota de corte auxiliar administrativo estado, nota de corte administrativo estado, notas de corte AGE, histórico notas de corte auxiliar administrativo, plazas auxiliar administrativo estado, oposiciones AGE C2 C1"
 badge: "AGE · Notas de corte"
 image: /resources/imgs/og/notas-de-corte-age.png
 date: 2026-06-16 13:00:00 +0200
 cta_title: "Llega a la nota de corte con <em>Testealo</em>"
 cta_text: "Practica con miles de preguntas tipo test del temario de la AGE, mide tu nota en simulacros y deja que la IA te explique cada fallo. Empieza gratis, sin tarjeta."
+related_tests: [constitucion-espanola]
 ---
 
 Si preparas **Auxiliar Administrativo del Estado** o **Administrativo del Estado**, la pregunta del millón es la misma de siempre: **"¿con qué nota se saca plaza?"**. Y la respuesta honesta vuelve a ser que **no hay una nota de corte fija**: depende del **turno** (libre, discapacidad, promoción interna, estabilización), de **cuántas plazas se convoquen** y de **cuánta gente apruebe**. En esta guía recopilamos el histórico **real** de las notas de corte de la Administración General del Estado (AGE), con plazas, ratios y fuentes, para que sepas interpretar los números en lugar de memorizarlos.

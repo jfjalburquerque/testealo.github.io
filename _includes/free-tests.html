@@ -1,0 +1,15 @@
+{% comment %}Tarjetas de tests gratis. Parámetro opcional: include.slugs (array de slugs); sin él, se muestran todos.{% endcomment %}
+<section class="free-tests reveal{% if include.slugs %} in-post{% endif %}"{% unless include.slugs %} id="tests-gratis"{% endunless %}>
+  <div class="section-label">Tests gratis · sin registro</div>
+  <h2 class="free-tests-title">{{ include.title | default: "Pon a prueba lo que sabes" }}</h2>
+  <div class="free-tests-grid">
+    {% for t in site.data.free_tests %}{% if include.slugs == nil or include.slugs contains t.slug %}
+    <a href="{{ t.url | relative_url }}" class="post-card">
+      <span class="badge">{{ t.badge }}</span>
+      <h3>Test de {{ t.name }}</h3>
+      <p>{{ t.desc }}</p>
+      <span class="read-more">Hacer el test gratis →</span>
+    </a>
+    {% endif %}{% endfor %}
+  </div>
+</section>

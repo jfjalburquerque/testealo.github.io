@@ -2,6 +2,7 @@
 layout: blog-post
 permalink: /blog/oposicion-tramitacion-procesal-administrativa/
 title: "Oposición a Tramitación Procesal y Administrativa: temario, examen y cómo aprobar"
+seo_title: "Oposición Tramitación Procesal: temario y examen | Testealo"
 subtitle: "Guía completa del cuerpo de Tramitación Procesal (subgrupo C1): funciones, temario bloque a bloque, formato del examen y plan de estudio realista."
 description: "Guía 2026 de la oposición a Tramitación Procesal y Administrativa: funciones, requisitos, temario completo, formato del examen y plan de estudio para aprobar."
 keywords: "oposición tramitación procesal, temario tramitación procesal y administrativa, examen tramitación procesal, oposiciones justicia C1, cómo aprobar tramitación procesal"
@@ -10,6 +11,7 @@ image: /resources/imgs/og/tramitacion-procesal.png
 date: 2026-06-15 10:00:00 +0200
 cta_title: "Practica el temario de Tramitación Procesal con <em>Testealo</em>"
 cta_text: "Miles de preguntas tipo test del temario de Justicia, supuestos prácticos, estadísticas de tus fallos y un tutor IA que te explica cada respuesta. Empieza gratis, sin tarjeta."
+related_tests: [tramitacion-procesal, constitucion-espanola]
 ---
 
 La oposición a **Tramitación Procesal y Administrativa** es una de las más demandadas de la Administración de Justicia, y con razón: solo necesitas el título de **Bachiller o equivalente**, salen muchas plazas en cada convocatoria y es la puerta de entrada perfecta para luego promocionar a Gestión Procesal. En esta guía te explicamos qué hace este cuerpo, el temario completo, cómo es el examen y cómo estudiar para aprobar.

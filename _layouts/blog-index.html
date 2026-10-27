@@ -25,6 +25,32 @@
 <link rel="shortcut icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}">
 <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet">
 
+{% include analytics.html %}
+{% include schema-org.html %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CollectionPage",
+      "@id": "https://testealo.net/blog/#webpage",
+      "url": "https://testealo.net/blog/",
+      "name": {{ page.title | jsonify }},
+      "description": {{ page.description | jsonify }},
+      "inLanguage": "es-ES",
+      "isPartOf": { "@id": "https://testealo.net/#website" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://testealo.net/" },
+        { "@type": "ListItem", "position": 2, "name": "Blog" }
+      ]
+    }
+  ]
+}
+</script>
+
 {% include blog-style.html %}
 </head>
 <body>
@@ -44,13 +70,16 @@
     <h2>{{ post.title }}</h2>
     <p>{{ post.description }}</p>
     <div class="meta">
-      <span>📅 {{ post.date | date: "%-d %b %Y" }}</span>
+      <span>📅 {% include fecha-es.html date=post.date corto=true %}</span>
       <span>⏱️ {{ post.content | number_of_words | divided_by: 200 | plus: 1 }} min</span>
     </div>
     <span class="read-more">Leer guía →</span>
   </a>
   {% endfor %}
 </div>
+
+{% include free-tests.html %}
+<div style="height:80px"></div>
 
 {% include blog-footer.html %}
 </body>

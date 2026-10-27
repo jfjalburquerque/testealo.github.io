@@ -1,0 +1,41 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://testealo.net/#organization",
+      "name": "Testealo",
+      "url": "https://testealo.net/",
+      "logo": { "@type": "ImageObject", "url": "https://testealo.net/resources/imgs/appicon.png" },
+      "email": "{{ site.email }}",
+      "sameAs": [
+        "{{ site.app_store_url }}",
+        "{{ site.google_play_url }}"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://testealo.net/#website",
+      "url": "https://testealo.net/",
+      "name": "Testealo",
+      "inLanguage": "es-ES",
+      "publisher": { "@id": "https://testealo.net/#organization" }
+    },
+    {
+      "@type": "MobileApplication",
+      "@id": "https://testealo.net/#app",
+      "name": "Testealo",
+      "description": "App para preparar oposiciones con tests oficiales, estadísticas de progreso, ranking de competición y un tutor IA que te explica cada pregunta.",
+      "applicationCategory": "EducationalApplication",
+      "operatingSystem": "iOS, Android, Web",
+      "inLanguage": "es-ES",
+      "url": "https://testealo.net/",
+      "installUrl": "{{ site.app_store_url }}",
+      "downloadUrl": "{{ site.google_play_url }}",
+      "image": "https://testealo.net/resources/imgs/og/home.png",
+      "publisher": { "@id": "https://testealo.net/#organization" }
+    }
+  ]
+}
+</script>

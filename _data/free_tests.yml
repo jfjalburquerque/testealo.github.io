@@ -1,0 +1,16 @@
+# Tests gratuitos sin registro (landings /test-*). Usado en el blog para enlazarlos.
+- slug: auxilio-judicial
+  name: Auxilio Judicial
+  url: /test-auxilio-judicial/
+  badge: "Justicia · C2"
+  desc: "10 preguntas reales del temario, corrección al instante y explicación en cada una."
+- slug: tramitacion-procesal
+  name: Tramitación Procesal
+  url: /test-tramitacion-procesal/
+  badge: "Justicia · C1"
+  desc: "Comprueba tu nivel en Tramitación Procesal y Administrativa y descubre qué temas llevas peor."
+- slug: constitucion-espanola
+  name: Constitución Española
+  url: /test-constitucion-espanola/
+  badge: "Común a todas"
+  desc: "La Constitución de 1978 entra en casi todas las oposiciones: practícala gratis."

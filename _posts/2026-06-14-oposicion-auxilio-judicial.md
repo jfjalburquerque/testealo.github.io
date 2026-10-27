@@ -2,6 +2,7 @@
 layout: blog-post
 permalink: /blog/oposicion-auxilio-judicial/
 title: "Oposición a Auxilio Judicial: temario, examen y cómo aprobar"
+seo_title: "Oposición Auxilio Judicial: temario, examen y cómo aprobar"
 subtitle: "Guía completa del cuerpo de Auxilio Judicial (subgrupo C2): funciones, temario bloque a bloque, formato del examen y plan de estudio realista."
 description: "Guía 2026 de la oposición a Auxilio Judicial: funciones, requisitos, temario completo, formato del examen y plan de estudio para aprobar."
 keywords: "oposición auxilio judicial, temario auxilio judicial, examen auxilio judicial, oposiciones justicia C2, cómo aprobar auxilio judicial"
@@ -10,6 +11,7 @@ image: /resources/imgs/og/auxilio-judicial.png
 date: 2026-06-14 10:00:00 +0200
 cta_title: "Practica el temario de Auxilio Judicial con <em>Testealo</em>"
 cta_text: "Miles de preguntas tipo test del temario de Justicia, supuestos prácticos, estadísticas de tus fallos y un tutor IA que te explica cada respuesta. Empieza gratis, sin tarjeta."
+related_tests: [auxilio-judicial, constitucion-espanola]
 ---
 
 **Auxilio Judicial** es la puerta de entrada a la Administración de Justicia: es el cuerpo con **menos requisitos de titulación** (te basta el Graduado en ESO), el **temario más corto** de los tres cuerpos generales y, aun así, un trabajo estable de funcionario de carrera con una vía directa para promocionar después a Tramitación. Si quieres entrar en Justicia y empezar cuanto antes, esta es tu oposición. Aquí tienes la guía completa.

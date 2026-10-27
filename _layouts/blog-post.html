@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{{ page.title }} | Testealo</title>
+<title>{% if page.seo_title %}{{ page.seo_title }}{% else %}{{ page.title }} | Testealo{% endif %}</title>
 <meta name="description" content="{{ page.description }}">
 {% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %}
 <link rel="canonical" href="https://testealo.net{{ page.url }}">
@@ -11,7 +11,7 @@
 
 <!-- Open Graph -->
 <meta property="og:type" content="article">
-<meta property="og:title" content="{{ page.title }}">
+<meta property="og:title" content="{{ page.seo_title | default: page.title }}">
 <meta property="og:description" content="{{ page.description }}">
 <meta property="og:url" content="https://testealo.net{{ page.url }}">
 <meta property="og:site_name" content="Testealo">
@@ -20,7 +20,7 @@
 <meta property="og:image:height" content="630">
 <meta property="og:locale" content="es_ES">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="{{ page.title }}">
+<meta name="twitter:title" content="{{ page.seo_title | default: page.title }}">
 <meta name="twitter:description" content="{{ page.description }}">
 <meta name="twitter:image" content="https://testealo.net{{ page.image | default: '/resources/imgs/logo_extended.png' }}">
 
@@ -29,21 +29,35 @@
 <link rel="shortcut icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}">
 <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet">
 
+{% include analytics.html %}
+{% include schema-org.html %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": {{ page.title | jsonify }},
-  "description": {{ page.description | jsonify }},
-  "datePublished": "{{ page.date | date_to_xmlschema }}",
-  "dateModified": "{{ page.date | date_to_xmlschema }}",
-  "author": { "@type": "Organization", "name": "Testealo" },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Testealo",
-    "logo": { "@type": "ImageObject", "url": "https://testealo.net/resources/imgs/logo_extended.png" }
-  },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://testealo.net{{ page.url }}" }
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "https://testealo.net{{ page.url }}#article",
+      "headline": {{ page.title | jsonify }},
+      "description": {{ page.description | jsonify }},
+      "image": "https://testealo.net{{ page.image | default: '/resources/imgs/og/blog.png' }}",
+      "inLanguage": "es-ES",
+      "datePublished": "{{ page.date | date_to_xmlschema }}",
+      "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
+      "author": { "@id": "https://testealo.net/#organization" },
+      "publisher": { "@id": "https://testealo.net/#organization" },
+      "isPartOf": { "@id": "https://testealo.net/#website" },
+      "mainEntityOfPage": { "@type": "WebPage", "@id": "https://testealo.net{{ page.url }}" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://testealo.net/" },
+        { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://testealo.net/blog/" },
+        { "@type": "ListItem", "position": 3, "name": {{ page.title | jsonify }} }
+      ]
+    }
+  ]
 }
 </script>
 
@@ -57,7 +71,8 @@
   <h1>{{ page.title }}</h1>
   {% if page.subtitle %}<p class="subtitle">{{ page.subtitle }}</p>{% endif %}
   <div class="post-meta">
-    <span>📅 {{ page.date | date: "%-d de %B de %Y" }}</span>
+    <span>📅 {% include fecha-es.html date=page.date %}</span>{% if page.last_modified_at %}
+    <span>🔄 Actualizado el {% include fecha-es.html date=page.last_modified_at %}</span>{% endif %}
     <span>⏱️ {{ content | number_of_words | divided_by: 200 | plus: 1 }} min de lectura</span>
   </div>
 </header>
@@ -67,6 +82,8 @@
   {{ content }}
 </article>
 
+{% include free-tests.html slugs=page.related_tests title="Practica gratis lo que acabas de leer" %}
+
 <section class="post-cta">
   <div class="box reveal">
     <h3>{{ page.cta_title | default: "Practica para tu oposición con <em>Testealo</em>" }}</h3>
@@ -74,6 +91,22 @@
     <a href="https://app.testealo.net" class="btn-primary">Empezar gratis ↗</a>
   </div>
 </section>
+
+{% assign related = site.posts | where_exp: "p", "p.url != page.url" | slice: 0, 3 %}
+{% if related.size > 0 %}
+<section class="related-posts reveal">
+  <div class="section-label">Sigue leyendo</div>
+  <div class="related-grid">
+    {% for p in related %}
+    <a href="{{ p.url | relative_url }}" class="post-card">
+      {% if p.badge %}<span class="badge">{{ p.badge }}</span>{% endif %}
+      <h3>{{ p.title }}</h3>
+      <span class="read-more">Leer guía →</span>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
 
 <div class="post-foot-nav reveal">
   <a href="{{ '/blog/' | relative_url }}">← Volver al blog</a>

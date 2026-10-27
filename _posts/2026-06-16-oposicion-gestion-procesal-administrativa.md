@@ -2,6 +2,7 @@
 layout: blog-post
 permalink: /blog/oposicion-gestion-procesal-administrativa/
 title: "Oposición a Gestión Procesal y Administrativa: temario, examen y cómo aprobar"
+seo_title: "Oposición Gestión Procesal: temario y examen | Testealo"
 subtitle: "Guía completa del cuerpo de Gestión Procesal (subgrupo A2): qué hace, el temario bloque a bloque, cómo es el examen y un plan de estudio realista."
 description: "Guía 2026 de la oposición a Gestión Procesal y Administrativa: funciones, requisitos, temario completo, formato del examen y plan de estudio para aprobar."
 keywords: "oposición gestión procesal, temario gestión procesal y administrativa, examen gestión procesal, oposiciones justicia A2, cómo aprobar gestión procesal"
@@ -10,6 +11,7 @@ image: /resources/imgs/og/gestion-procesal.png
 date: 2026-06-16 10:00:00 +0200
 cta_title: "Practica el temario de Gestión Procesal con <em>Testealo</em>"
 cta_text: "Miles de preguntas tipo test del temario de Justicia, supuestos prácticos, estadísticas de tus fallos y un tutor IA que te explica cada respuesta. Empieza gratis, sin tarjeta."
+related_tests: [tramitacion-procesal, constitucion-espanola]
 ---
 
 Si estás pensando en opositar a **Gestión Procesal y Administrativa**, estás mirando uno de los cuerpos más interesantes de la Administración de Justicia: estabilidad de funcionario de carrera, trabajo cualificado dentro de la oficina judicial y un salto natural si ya vienes de Tramitación. En esta guía tienes todo lo que necesitas saber para empezar con cabeza: qué hace este cuerpo, el temario completo, cómo es el examen y cómo organizar el estudio para no perderte.

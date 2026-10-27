@@ -4,7 +4,8 @@
     <a href="{{ '/' | relative_url }}#features">Funciones</a>
     <a href="{{ '/' | relative_url }}#howto">Cómo funciona</a>
     <a href="{{ '/' | relative_url }}#download">Descargar</a>
-    <a href="{{ '/blog/' | relative_url }}" class="active">Blog</a>
+    <a href="{{ '/blog/' | relative_url }}"{% if page.layout == 'blog-index' %} class="active"{% endif %}>Blog</a>
+    <a href="{{ '/blog/' | relative_url }}#tests-gratis">Tests gratis</a>
     <a href="https://app.testealo.net" class="nav-cta">Empezar gratis →</a>
   </div>
 </nav>
